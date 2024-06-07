@@ -34,3 +34,5 @@ e86f78bcbfcd50ca83aba9c0c5064e31b441e826
 RUN python manage.py migrate
 
 RUN python manage.py runserver
+
+
