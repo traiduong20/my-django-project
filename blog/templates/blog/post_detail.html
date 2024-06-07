@@ -17,7 +17,7 @@
     <h2>{{ post.title }}</h2>
     <p>{{ post.text|linebreaksbr }}</p>
     {% if post.link %}
-    <p><a href="{{ post.link }}">Additional Link</a></p>
+    <p><a href="{{ post.link }}" target="_blank">Additional Link</a></p>
     {% endif %}
 </article>
 {% endblock %}

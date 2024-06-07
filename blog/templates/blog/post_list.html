@@ -9,7 +9,7 @@
     <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
     <p>{{ post.text|linebreaksbr }}</p>
     {% if post.link %}
-    <p><a href="{{ post.link }}">Additional link</a></p>
+    <p><a href="{{ post.link }}" target="_blank">Additional link</a></p>
     {% endif %}
 </article>
 {% endfor %}
